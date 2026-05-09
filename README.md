@@ -25,10 +25,16 @@ When overlaps occur, tile payloads are concatenated in input order.
 2. Run:
 
 ```bash
-./smush.sh
+./merge.sh
 ```
 
 3. Output will be written to `data/merged.mbtiles`.
+
+## Example Output
+
+The screenshot below shows the script running in VS Code and producing the merged MBTiles file:
+
+![Example output](screenshot.png)
 
 ## Direct CLI Usage
 
